@@ -1,0 +1,38 @@
+#firstname{
+    width: 200px;
+}
+#lastname{
+    width: 200px;
+}
+#password{
+    width: 400px;
+}
+#email_width{
+    width: 400px;
+
+}
+.main-wrapper h2{
+    color: white;
+    text-align: center;
+    background-color: black;
+    margin-top: 95px;
+}
+#confirmpassword{
+    width: 400px;
+}
+#registration-form{
+    background-color: #404a4a14;   
+    display: flex;
+    justify-content: center;
+
+}
+.main-wrapper{
+    justify-content: center;
+    align-items: center;
+}
+.invalid-feedback{
+    display: none;
+}
+.valid-feedback{
+    display: none;
+}
