@@ -74,7 +74,7 @@ function validate() {
 	if (
         (password.length >= 8)
         && (password.includes('$')||password.includes('#')||password.includes('@')) &&
-        password.includes(0)||password.includes(1)||password.includes(2)||password.includes(3)||password.includes(4)) {
+        (password.includes(0)||password.includes(1)||password.includes(2)||password.includes(3)||password.includes(4))) {
     document.getElementById("password-invalid").style.display = "none";
   } else {
 		error = true
